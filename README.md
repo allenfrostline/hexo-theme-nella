@@ -1,5 +1,9 @@
 This Theme is customized based on [Apollo](https://github.com/pinggod/hexo-theme-apollo).
 
+### Demo
+
+This is my [blog](http://www.allenfrostline.com).
+
 ### Features
 
 The main focus of the theme, compared with its predecessor, Apollo, is trying to be **more**:
