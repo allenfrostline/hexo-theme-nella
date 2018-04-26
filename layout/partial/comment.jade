@@ -31,8 +31,7 @@ if page.comments
     if theme.gitment.enable
         - var date = page.date
         #container
-        link(rel='stylesheet', href='https://cdn.rawgit.com/allenfrostline/Comments-on-Whiteboard/master/gitalk.css')
-        // use this for debugging: https://rawgit.com/allenfrostline/Comments-on-Whiteboard/master/gitalk.css
+        link(rel='stylesheet', href='https://imsun.github.io/gitment/style/default.css')
         script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
         script.
             var gitment = new Gitment({
@@ -44,12 +43,13 @@ if page.comments
                     client_secret: '#{theme.gitment.client_secret}',
                 },
             })
-            gitment.render('container') 
+            gitment.render('container')
 
     if theme.gitalk.enable
         - var date = page.date
         #container
-        link(rel="stylesheet" href="https://rawgit.com/allenfrostline/Comments-on-Whiteboard/master/gitalk.css")
+        link(rel="stylesheet" href="https://cdn.rawgit.com/allenfrostline/hexo-theme-nella/c4f6ea89/gitalk.css")
+        // for debugging, use: https://rawgit.com/allenfrostline/hexo-theme-nella/master/gitalk.css
         script(src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js")
         script.
             var gitalk = new Gitalk({
