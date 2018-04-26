@@ -171,7 +171,7 @@
 @media (max-width:479px){
   .gt-container .gt-header-comment{margin-left:0.875em}
 }
-.gt-container .gt-header-textarea{padding:13px;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;min-height:5.125em;max-height:15em;border-radius:5px;border:1px solid rgba(0,0,0,0.1);font-size:0.875em;word-wrap:break-word;resize:vertical;background-color:#f6f6f6;outline:none;-webkit-transition:all 0.25s ease;transition:all 0.25s ease}
+.gt-container .gt-header-textarea{padding:17px;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;min-height:5.125em;max-height:15em;border-radius:5px;border:1px solid rgba(0,0,0,0.1);font-size:0.875em;word-wrap:break-word;resize:vertical;background-color:#f6f6f6;outline:none;-webkit-transition:all 0.25s ease;transition:all 0.25s ease}
 .gt-container .gt-header-textarea:hover{background-color:#fbfbfb}
 .gt-container .gt-header-controls{position:relative;margin:0.75em 0 0}
 .gt-container .gt-header-controls:before,.gt-container .gt-header-controls:after{content:" ";display:table}
