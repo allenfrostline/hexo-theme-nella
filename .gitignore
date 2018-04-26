@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.idea
+/source/.sass-cache/
+/source/scss/_partial/*.css.map
+/source/scss/_partial/*.css
+
+/source/css/*.css.map
+/source/scss/*.css
+/source/scss/*.css.map

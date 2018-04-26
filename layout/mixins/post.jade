@@ -1,0 +1,56 @@
+mixin postInfo(item, showCate)
+    .post-info
+        if page.path != "search/index.html" && page.path != "about/index.html"
+            != full_date(item.date, 'll')
+        if showCate && item.categories
+            span.categories <i class="fa fa-bookmark" aria-hidden="true"></i>
+            for category in item.categories.toArray()
+                a(class="post-category" href=url_for(category.path))= "#"+category.name
+        if item.from && (is_home() || is_post())
+            a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
+
+//- Index Page
+mixin posts()
+    ul.home.post-list
+        - page.posts.each(function (item) {
+            li.post-list-item
+                article.post-block
+                    h2.post-title
+                        a.post-title-link(href= url_for(item.path))
+                            != item.title
+                    +postInfo(item, true)
+                    .post-content
+                        != item.excerpt
+                    // a.read-more(href= url_for(item.path))!= __('more')
+        - })
+
+//- Archive Page
+mixin postList()
+    .archive
+        - var year = 0;
+        - var change = false;
+        - page.posts.each(function (item) {
+            - var itemYear = date(item.date, 'YYYY') - 0;
+            - change = year !== itemYear;
+            - year = change ? itemYear : year;
+            if change 
+                h2.archive-year!= year
+            .post-item
+                +postInfo(item, false)
+                a.post-title-link(href= url_for(item.path))
+                    != item.title
+        - })
+
+//- Post Page
+mixin post(item)
+    .post
+        article.post-block
+            h1.post-title
+                != item.title
+            +postInfo(item, true)
+            .post-content
+                != item.content
+            if item.tags
+                p.post-tags <i class="fa fa-tags" aria-hidden="true"></i>
+                    for tag in item.tags.toArray()
+                        a(href=url_for(tag.path))=  '#' + tag.name
