@@ -48,12 +48,6 @@
 .markdown-body hr::after{display:table;clear:both;content:""}
 .markdown-body td,.markdown-body th{padding:0}
 .markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:0;margin-bottom:0}
-.markdown-body h1{font-size:32px;font-weight:600}
-.markdown-body h2{font-size:24px;font-weight:600}
-.markdown-body h3{font-size:20px;font-weight:600}
-.markdown-body h4{font-size:16px;font-weight:600}
-.markdown-body h5{font-size:14px;font-weight:600}
-.markdown-body h6{font-size:12px;font-weight:600}
 .markdown-body p{margin-top:0;margin-bottom:10px}
 .markdown-body blockquote{margin:0}
 .markdown-body ul,.markdown-body ol{padding-left:0;margin-top:0;margin-bottom:0}
