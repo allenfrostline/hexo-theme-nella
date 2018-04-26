@@ -100,7 +100,7 @@
 .markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}
 .markdown-body dl dd{padding:0 16px;margin-bottom:16px}
 .markdown-body img{max-width:100%;-webkit-box-sizing:content-box;box-sizing:content-box;background-color:#fff}
-.markdown-body code{padding:0;padding-top:0.2em;padding-bottom:0.2em;margin:0;font-size:85%;background-color:transparent;border-radius:3px}
+.markdown-body code{padding:0;margin:0;font-size:85%;background-color:transparent;border-radius:3px}
 .markdown-body code::before,.markdown-body code::after{letter-spacing:-0.2em;content:"\A0"}
 .markdown-body pre{word-wrap:normal}
 .markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}
