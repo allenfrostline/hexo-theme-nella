@@ -1,4 +1,4 @@
-.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.5;color:#24292e;font-family:Monaco;font-size:14px;line-height:1.5;word-wrap:break-word}
+.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:inherit;font-family:inherit;font-size:17px;line-height:inherit;word-wrap:inherit;}
 .markdown-body .pl-c{color:#6a737d}
 .markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:#b21c1c}
 .markdown-body .pl-e,.markdown-body .pl-en{color:#6f42c1}
@@ -59,7 +59,7 @@
 .markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}
 .markdown-body ul ul ol,.markdown-body ul ol ol,.markdown-body ol ul ol,.markdown-body ol ol ol{list-style-type:lower-alpha}
 .markdown-body dd{margin-left:0}
-.markdown-body code{font-family:Monaco;font-size:12px}
+.markdown-body code{font-family:Monaco;font-size:13px}
 .markdown-body pre{margin-top:0;margin-bottom:0;font:13px Monaco}
 .markdown-body .octicon{vertical-align:text-bottom}
 .markdown-body .pl-0{padding-left:0!important}
@@ -100,13 +100,13 @@
 .markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}
 .markdown-body dl dd{padding:0 16px;margin-bottom:16px}
 .markdown-body img{max-width:100%;-webkit-box-sizing:content-box;box-sizing:content-box;background-color:#fff}
-.markdown-body code{padding:0;padding-top:0.2em;padding-bottom:0.2em;margin:0;font-size:85%;background-color:rgba(27,31,35,0.05);border-radius:3px}
+.markdown-body code{padding:0;padding-top:0.2em;padding-bottom:0.2em;margin:0;font-size:85%;background-color:transparent;border-radius:3px}
 .markdown-body code::before,.markdown-body code::after{letter-spacing:-0.2em;content:"\A0"}
 .markdown-body pre{word-wrap:normal}
 .markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}
 .markdown-body .highlight{margin-bottom:16px}
 .markdown-body .highlight pre{margin-bottom:0;word-break:normal}
-.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}
+.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:transparent;border-radius:3px}
 .markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}
 .markdown-body pre code::before,.markdown-body pre code::after{content:normal}
 .markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#e20b0b;border-bottom:4px solid #b21c1c}
