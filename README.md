@@ -1,4 +1,4 @@
-This Theme is customized based on https://github.com/pinggod/hexo-theme-apollo   
+This Theme is customized based on [Apollo](https://github.com/pinggod/hexo-theme-apollo).
 
 ### Features
 
