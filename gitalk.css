@@ -193,7 +193,7 @@
 .gt-container .gt-comments-null{text-align:center}
 .gt-container .gt-comments-controls{margin:1.25em 0;text-align:center}
 .gt-container .gt-comment{position:relative;padding:0.625em 0;display:-webkit-box;display:-ms-flexbox;display:flex}
-.gt-container .gt-comment-content{-webkit-box-flex:1;-ms-flex:1;flex:1;margin-left:1.25em;padding:0.75em 1em;background-color:#f9f9f9;overflow:auto;-webkit-transition:all ease 0.25s;transition:all ease 0.25s}
+.gt-container .gt-comment-content{-webkit-box-flex:1;-ms-flex:1;flex:1;margin-left:1.25em;padding:0.75em 1em;background-color:#f9f9f9;overflow:auto;-webkit-transition:all ease 0.25s;transition:all ease 0.25s;box-shadow:0 1px 2px #e3e3e3}
 @media (max-width:479px){
   .gt-container .gt-comment-content{margin-left:0.875em;padding:0.625em 0.75em}
 }
