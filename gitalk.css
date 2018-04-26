@@ -81,12 +81,6 @@
 .markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#1b1f23;vertical-align:middle;visibility:hidden}
 .markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}
 .markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}
-.markdown-body h1{padding-bottom:0.3em;font-size:2em}
-.markdown-body h2{padding-bottom:0.3em;font-size:1.5em}
-.markdown-body h3{font-size:1.25em}
-.markdown-body h4{font-size:1em}
-.markdown-body h5{font-size:0.875em}
-.markdown-body h6{font-size:0.85em;color:#6a737d}
 .markdown-body ul,.markdown-body ol{padding-left:2em}
 .markdown-body ul ul,.markdown-body ul ol,.markdown-body ol ol,.markdown-body ol ul{margin-top:0;margin-bottom:0}
 .markdown-body li>p{margin-top:16px}
