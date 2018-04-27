@@ -124,7 +124,7 @@
 @media (max-width:479px){
   .gt-container .gt-avatar-github{width:1.875em;height:1.875em}
 }
-.gt-container .gt-btn{padding:0;display:inline-block;line-height:1;text-decoration:none;white-space:nowrap;cursor:pointer;border:none;border-radius:5px;background-color:#e20b0b;border-bottom:4px solid #b21c1c;color:#fff;outline:none;font-size:17px}
+.gt-container .gt-btn{padding:4px 12px;display:inline-block;line-height:1;text-decoration:none;white-space:nowrap;cursor:pointer;border:none;border-radius:5px;background-color:#e20b0b;border-bottom:4px solid #b21c1c;color:#fff;outline:none;font-size:17px}
 .gt-container .gt-btn:hover{background-color:#f21a1a;color:#fff}
 .gt-container .gt-btn-loading{position:relative;margin-left:0.5em;display:inline-block;width:0.75em;height:1em;vertical-align:top}
 .gt-container .gt-btn.is--disable{cursor:not-allowed;opacity:0.5}
