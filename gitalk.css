@@ -28,7 +28,6 @@
 .markdown-body a{background-color:transparent;-webkit-text-decoration-skip:objects}
 .markdown-body a:active,.markdown-body a:hover{outline-width:0}
 .markdown-body strong{font-weight:inherit}
-.markdown-body strong{font-weight:bolder}
 .markdown-body h1,.markdown-body h2{font-size:1.3em}
 .markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-size:1.1em}
 .markdown-body img{border-style:none}
@@ -42,7 +41,6 @@
 .markdown-body input{font-family:inherit;font-size:inherit;line-height:inherit}
 .markdown-body a{color:#b21c1c;text-decoration:none}
 .markdown-body a:hover{text-decoration:underline}
-.markdown-body strong{font-weight:600}
 .markdown-body hr{height:0;margin:15px 0;overflow:hidden;background:transparent;border:0;border-bottom:1px solid #dfe2e5}
 .markdown-body hr::before{display:table;content:""}
 .markdown-body hr::after{display:table;clear:both;content:""}
