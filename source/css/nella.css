@@ -53,7 +53,7 @@ table{display:block;overflow:auto;margin:auto;width:100%;font-size:15px}
 table thead{border-top:2px solid;border-bottom:1px solid}
 table tr td{padding:0 10px;text-align:center}
 table tr th{padding:0 10px;text-align:center}
-::-webkit-scrollbar{display:none;}
+/*::-webkit-scrollbar:horizontal{display:none;}*/
 pre{text-align:normal}
 header{min-height:60px}
 header .logo-link{float:left}
