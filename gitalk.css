@@ -27,7 +27,7 @@
 .markdown-body .octicon{display:inline-block;vertical-align:text-top;fill:currentColor}
 .markdown-body a{background-color:transparent;-webkit-text-decoration-skip:objects}
 .markdown-body a:active,.markdown-body a:hover{outline-width:0}
-.markdown-body strong{font-weight:inherit}
+.markdown-body strong{font-weight:bold}
 .markdown-body h1,.markdown-body h2{font-size:1.3em}
 .markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-size:1.1em}
 .markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top: 0; margin-bottom: 0; line-height: inherit;}
