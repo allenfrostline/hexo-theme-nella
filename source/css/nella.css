@@ -110,7 +110,7 @@ pre .ruby .class .title,.css .rules .attribute,.string,.value,.inheritance,.head
 pre .title,.css .hexcolor{color:#3e999f;}
 pre .function,.python .decorator,.python .title,.ruby .function .title,.ruby .title .keyword,.perl .sub,.javascript .title,.coffeescript .title{color:#4271ae;}
 pre .keyword,.javascript .function{color:#8959a8;}
-pre code{font-size:1em;background-color:#ffffff;margin-left:1.5em;display:block}
+pre code{font-size:1em;background-color:#ffffff;margin-left:1.1em;display:block}
 code{padding-left:5px;padding-right:5px;font-size:.7em;border:2px solid #b21c1c;border-radius:4px;font-family:Monaco}
 pre code{border:none;}
 .paginator{margin:4em 0;text-align:center}
