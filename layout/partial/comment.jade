@@ -46,7 +46,7 @@ if page.comments
             gitment.render('container')
 
     if theme.gitalk.enable
-        - var date = page.date
+        - var title = page.title
         #container
         link(rel="stylesheet" href="https://cdn.rawgit.com/allenfrostline/hexo-theme-nella/6e4e071efd831cd4dc6401cdcd3d448d7f79eb0b/gitalk.css")
         script(src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js")
@@ -57,7 +57,7 @@ if page.comments
                 repo: '#{theme.gitalk.repo}',
                 owner: '#{theme.gitalk.owner}',
                 admin: ['#{theme.gitalk.owner}'],
-                id: '#{date}',
+                id: '#{title}',
                 distractionFreeMode: false,
                 pagerDirection: 'first'
             })
