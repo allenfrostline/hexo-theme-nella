@@ -51,8 +51,8 @@ iframe,video{max-width:100%;margin:1rem auto;display:block}
 table{border-collapse:collapse;border-spacing:0}
 table{display:block;overflow:auto;margin:auto;width:100%;font-size:15px}
 table thead{border-top:2px solid;border-bottom:1px solid}
-table tr td{padding:0 10px;text-align:center}
-table tr th{padding:0 10px;text-align:center}
+table tr td{padding:0 10px;text-align:center;vertical-align:top;white-space:nowrap;}
+table tr th{padding:0 10px;text-align:center;vertical-align:top;white-space:nowrap;}
 /*::-webkit-scrollbar:horizontal{display:none;}*/
 pre{text-align:normal}
 header{min-height:60px}
