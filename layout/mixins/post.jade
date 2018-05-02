@@ -1,6 +1,6 @@
 mixin postInfo(item, showCate)
     .post-info
-        if page.path != "search/index.html" && page.path != "about/index.html"
+        if page.path != "search/index.html" && page.path != "about/index.html" && page.path != "questions.index.html"
             != full_date(item.date, 'll')
         if showCate && item.categories
             span.categories <i class="fa fa-bookmark" aria-hidden="true"></i>
