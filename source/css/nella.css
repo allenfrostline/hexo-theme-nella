@@ -117,13 +117,13 @@ pre code { border: none }
 .ds-thread, #disqus_thread { margin-bottom: 2em }
 main.container { margin: 2em 10px }
 @media screen and (min-width:850px) {
-    .wrap { width: 850px; margin: 0 auto }
+    .wrap { max-width: 850px; margin: 0 auto }
     header { padding: 0px 0px }
 }
 @media screen and (max-width:850px) {
     .wrap { width: 100% }
     header { padding: 0px 0px }
-    header a.logo-link, header ul.nav.nav-list { float: none; display: block; text-align: center }
+    header a.logo-link, header ul.nav.nav-list {float: none; display: block; text-align: center }
     header li.nav-list-item { padding: 10px 10px }
     main.container, .home.post-list, .archive { margin-top: 0 }
     .archive .post-item { padding-left: 20px }

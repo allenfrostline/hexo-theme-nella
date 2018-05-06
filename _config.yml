@@ -5,6 +5,7 @@ menu:
     # Categories: /categories/
     About: /about/
     # Rss: /atom.xml
+    Search: /search/
 
 favicon: /favicon.ico
 logo: /avatar.jpg
