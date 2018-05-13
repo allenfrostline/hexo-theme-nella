@@ -1,4 +1,4 @@
-/*@font-face { font-family: "Palatino"; src: url("font/Palatino.ttc") }*/
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosanscjk.css);*/
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100% }
 body { margin: 0 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block }
@@ -15,7 +15,7 @@ small { font-size: 80% }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline }
 sup { top: -0.5em }
 sub { bottom: -0.25em }
-img { border: 0 }
+img { border: 0; pointer-events: none; }
 svg:not(:root) { overflow: hidden }
 figure { margin: 1em 40px }
 hr { box-sizing: content-box; height: 0 }
@@ -79,7 +79,7 @@ header ul.nav-fix-list-child { display: none }
 .post-block .post-info a.post-from { margin-left: 0.5rem; padding: 3px 6px; border-radius: 5px; font-size: 12px; color: white; background-color: #b21c1c }
 .post-block .post-info a.post-category { margin-left: 10px }
 .post-block .post-tags a { margin-left: 10px }
-.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { position: relative; margin: 1em 0 }
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { position: relative; margin: 1em 0}
 .post-content h1 a:before, .post-content h2 a:before, .post-content h3 a:before, .post-content h4 a:before, .post-content h5 a:before, .post-content h6 a:before { content: "#"; color: #b21c1c; position: absolute; left: -0.7em; top: -4px; font-size: 1.2em; font-weight: bold }
 .post-content h3 a:before, .post-content h4 a:before, .post-content h5 a:before, .post-content h6 a:before { content: "" }
 .post-content h1, .post-content h2 { font-size: 1.3em }
