@@ -12,13 +12,6 @@ logo: /avatar.jpg
 
 # Comment
 
-gitment:
-  enable: false
-  owner:
-  repo:
-  client_id:
-  client_secret:
-
 gitalk:
   enable: true
   owner: allenfrostline
