@@ -11,12 +11,13 @@ favicon: /favicon.ico
 logo: /avatar.jpg
 
 # Comment
-gitment:
-  enable: false
-  owner: allenfrostline
-  repo: Comments-on-Whiteboard
-  client_id: 8f880a91b82796d2ce14
-  client_secret: dc2c450f9bd7fba631ce51de266a12684a729e89
+
+# gitment:
+#   enable: false
+#   owner:
+#   repo:
+#   client_id:
+#   client_secret:
 
 gitalk:
   enable: true
