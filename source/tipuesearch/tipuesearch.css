@@ -125,28 +125,33 @@
 }
 
 #tipue_search_foot_boxes li a {
-    padding: 10px 17px 11px 17px;
+    display: inline-block; 
+    margin: 0 4px; 
+    padding: 4px 12px;
     background-color: #fff;
-    border: 1px solid #e3e3e3;
-    border-radius: 1px;
-    color: #333;
-    margin-right: 7px;
-    text-decoration: none;
+    border-bottom: 4px solid #b21c1c; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    color: #fff; 
+    background-color: #e20b0b;
     text-align: center;
 }
 
 #tipue_search_foot_boxes li.current {
-    padding: 10px 17px 11px 17px;
-    background: #f6f6f6;
-    border: 1px solid #e3e3e3;
-    border-radius: 1px;
-    color: #333;
-    margin-right: 7px;
+    display: inline-block; 
+    margin: 0 4px; 
+    padding: 4px 12px;
+    background-color: #fff;
+    border-bottom: 4px solid #b21c1c; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    color: #fff; 
+    background-color: #f21a1a;
     text-align: center;
 }
 
 #tipue_search_foot_boxes li a:hover {
-    background: #f6f6f6;
+    background-color: #f21a1a;
 }
 
 /* spinner */
