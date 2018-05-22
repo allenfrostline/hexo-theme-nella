@@ -93,9 +93,9 @@ header ul.nav-fix-list-child { display: none }
 .post-content .tip:before { position: absolute; top: 14px; left: -12px; content: "!"; width: 20px; height: 20px; border-radius: 100%; color: #fff; font-size: 14px; line-height: 20px; font-weight: bold; text-align: center; background-color: #f66; font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif }
 #mask { position: fixed; overflow: scroll; width: 100%; height: 100%; padding: 1em 0; background-color: #9a9a9a; z-index: 10 }
 #mask #mask-image { max-width: 100% }
-pre { font-size: 13px; font-family: Monaco; text-align: left }
+pre { font-size: 13px; font-family: Monaco, Roboto Mono, monospace; text-align: left }
 code { font-size: 13px }
-pre code { background-color: #f8f8f8; font-family: Monaco }
+pre code { background-color: #f8f8f8; font-family: Monaco, Roboto Mono, monospace }
 .highlight { position: relative; margin: 1em 0; border-radius: 2px; line-height: 1.1em; background-color: #f8f8f8; overflow-x: auto }
 .highlight table, .highlight tr, .highlight td { width: 100%; border: 0; border-collapse: collapse; padding: 0; margin: 0 }
 .highlight .gutter { display: none }
@@ -109,7 +109,7 @@ pre .title, .css .hexcolor { color: #3e999f }
 pre .function, .python .decorator, .python .title, .ruby .function .title, .ruby .title .keyword, .perl .sub, .javascript .title, .coffeescript .title { color: #4271ae }
 pre .keyword, .javascript .function { color: #8959a8 }
 pre code { font-size: 1em; background-color: #ffffff; margin-left: 1.1em; display: block }
-code { padding-left: 5px; padding-right: 5px; font-size: .7em; border: 2px solid #b21c1c; border-radius: 4px; font-family: Monaco }
+code { padding-left: 5px; padding-right: 5px; font-size: .7em; border: 2px solid #b21c1c; border-radius: 4px; font-family: Monaco, Roboto Mono, monospace }
 pre code { border: none }
 .paginator { margin: 4em 0; text-align: center }
 .paginator .prev, .paginator .next { display: inline-block; margin: 0 4px; padding: 4px 12px; border-radius: 4px; border-bottom: 4px solid #b21c1c; font-size: 14px; color: #fff; background-color: #e20b0b }
