@@ -39,7 +39,7 @@ if page.comments
                 clientSecret: '#{theme.gitalk.client_secret}',
                 repo: '#{theme.gitalk.repo}',
                 owner: '#{theme.gitalk.owner}',
-                admin: '#{theme.gitalk.owner}',
+                admin: ['#{theme.gitalk.owner}'],
                 perPage: 100,
                 id: '#{page.date}'.split('GMT')[0].replace(/\s/g, '-'),
                 distractionFreeMode: false,
