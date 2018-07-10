@@ -41,7 +41,7 @@ if page.comments
                 owner: '#{theme.gitalk.owner}',
                 admin: '#{theme.gitalk.owner}',
                 perPage: 100,
-                id: '#{page.date}'.split('GMT')[0],
+                id: page.date.split('GMT')[0],
                 distractionFreeMode: false,
                 pagerDirection: 'first'
             })
