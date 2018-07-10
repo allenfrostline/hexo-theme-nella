@@ -30,7 +30,6 @@ if page.comments
     
 
     if theme.gitalk.enable
-        - var date = page.date
         #container
         link(rel="stylesheet" href="/gitalk/gitalk.css")
         script(src="/gitalk/gitalk.min.js")
@@ -42,7 +41,7 @@ if page.comments
                 owner: '#{theme.gitalk.owner}',
                 admin: ['#{theme.gitalk.owner}'],
                 perPage: 100,
-                id: '#{date}',
+                id: '#{page.date}'.split('GMT')[0],
                 distractionFreeMode: false,
                 pagerDirection: 'first'
             })
