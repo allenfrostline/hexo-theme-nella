@@ -31,7 +31,7 @@ if page.comments
 
     if theme.gitalk.enable
         #container
-        link(rel="stylesheet" href="/gitalk/gitalk.css")
+        link(rel="stylesheet" href="/gitalk/gitalk-new.css")
         script(src="/gitalk/gitalk.min.js")
         script.
             var gitalk = new Gitalk({
@@ -41,7 +41,7 @@ if page.comments
                 owner: '#{theme.gitalk.owner}',
                 admin: ['#{theme.gitalk.owner}'],
                 perPage: 100,
-                id: '#{page.date}'.split('GMT')[0].replace(/\s/g, '-'),
+                id: '#{page.date} GMT'.split('GMT')[0].replace(/\s/g, '-'),
                 distractionFreeMode: false,
                 pagerDirection: 'first'
             })
