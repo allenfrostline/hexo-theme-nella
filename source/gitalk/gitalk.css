@@ -242,41 +242,6 @@
   padding: 0;
 }
 
-.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.markdown-body h1 {
-  /*font-size: 32px;*/
-  font-weight: 600;
-}
-
-.markdown-body h2 {
-  /*font-size: 24px;*/
-  font-weight: 600;
-}
-
-.markdown-body h3 {
-  /*font-size: 20px;*/
-  font-weight: 600;
-}
-
-.markdown-body h4 {
-  /*font-size: 16px;*/
-  font-weight: 600;
-}
-
-.markdown-body h5 {
-  /*font-size: 14px;*/
-  font-weight: 600;
-}
-
-.markdown-body h6 {
-  /*font-size: 12px;*/
-  font-weight: 600;
-}
-
 .markdown-body h1, .markdown-body h2 { font-size: 1.3em }
 .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 { font-size: 1.1em }
 
@@ -446,35 +411,6 @@
 
 .markdown-body h1:hover .anchor .octicon-link, .markdown-body h2:hover .anchor .octicon-link, .markdown-body h3:hover .anchor .octicon-link, .markdown-body h4:hover .anchor .octicon-link, .markdown-body h5:hover .anchor .octicon-link, .markdown-body h6:hover .anchor .octicon-link {
   visibility: visible;
-}
-
-.markdown-body h1 {
-  padding-bottom: 0.3em;
-  font-size: 2em;
-  border-bottom: 1px solid #eaecef;
-}
-
-.markdown-body h2 {
-  padding-bottom: 0.3em;
-  font-size: 1.5em;
-  border-bottom: 1px solid #eaecef;
-}
-
-.markdown-body h3 {
-  font-size: 1.25em;
-}
-
-.markdown-body h4 {
-  font-size: 1em;
-}
-
-.markdown-body h5 {
-  font-size: 0.875em;
-}
-
-.markdown-body h6 {
-  font-size: 0.85em;
-  color: #6a737d;
 }
 
 .markdown-body ul, .markdown-body ol {
@@ -1257,5 +1193,3 @@
   }
 
 }
-
-/*# sourceMappingURL=gitalk.css.map*/

@@ -1,15 +1,15 @@
 //- LaTex
-script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")
+script(async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
 
 script(type="text/x-mathjax-config").
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      processEscapes: true,
-      processEnvironments: true,
-      skipTags: ["script","noscript","style","textarea","code","pre"]
-    }
-  });
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true,
+            processEnvironments: true,
+            skipTags: ["script","noscript","style","textarea","code","pre"]
+        }
+    });
 
 //- Analytics tracking
 - var ga = theme.ga
