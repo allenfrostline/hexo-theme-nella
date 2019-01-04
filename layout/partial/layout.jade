@@ -15,7 +15,7 @@ html(lang=config.language)
                     != tagcloud()
             else if page.path == "categories/index.html"
                 .all-categories.tag-content 
-                    != list_categories({show_count: false, depth: 2, class: 'nav-category', style: 'list'})
+                    != list_categories({show_count: false})
             else
                 block container
             footer
