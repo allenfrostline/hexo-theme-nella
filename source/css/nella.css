@@ -137,3 +137,5 @@ footer { padding-bottom: 1px }
 header {margin-top: 10px}
 body { max-width: 90%; margin: 0 auto 1% auto; height: 99%}
 table th {color: #000000;}
+
+.post-content h1:before, .post-content h2:before { content: "#"; color: #b21c1c; position: absolute; left: -0.7em; top: -4px; font-size: 1.2em; font-weight: bold }
