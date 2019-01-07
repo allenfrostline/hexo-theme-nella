@@ -479,17 +479,12 @@
 }
 
 .markdown-body code {
-  padding-left: .1em;
-  padding-right: .1em;
-  margin: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-right: 1px;
   font-size: 13px;
   background-color: transparent;
   border-radius: 4px;
-}
-
-.markdown-body code::before, .markdown-body code::after {
-  letter-spacing: -0.2em;
-  content: "\A0";
 }
 
 .markdown-body pre {
