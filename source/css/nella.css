@@ -47,11 +47,10 @@ a.nav-list-link.active, a.nav-list-link:hover, a.post-title-link:hover { border-
 hr { border: 0px }
 hr { border-top: 2px dashed #ddd }
 iframe, video { max-width: 100%; margin: 1rem auto; display: block }
-table { border-collapse: collapse; border-spacing: 0 }
-table { display: block; overflow: auto; margin: auto; width: 100%; font-size: 15px }
+table { display: inline-block; text-align: center; max-width: 100%; font-size: 15px; overflow: auto; border-collapse: collapse; border-spacing: 0; border-bottom: 2px solid}
 table thead { border-top: 2px solid; border-bottom: 1px solid }
-table tr td { padding: 0 10px; text-align: center; vertical-align: top; white-space: nowrap }
-table tr th { padding: 0 10px; text-align: center; vertical-align: top; white-space: nowrap }
+table tr td { padding: 0 10px; vertical-align: top; white-space: nowrap }
+table tr th { padding: 0 10px; vertical-align: top; white-space: nowrap }
 pre { text-align: normal }
 header { min-height: 60px }
 header .logo-link { float: left }
