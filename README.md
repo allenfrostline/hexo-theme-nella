@@ -1,10 +1,14 @@
+# Nella
+
+<img width="100%" src="/sourse/screenshot/head.png">
+
 This Theme is customized based on [Apollo](https://github.com/pinggod/hexo-theme-apollo).
 
-### Demo
+## Demo
 
 This is my [blog](http://www.allenfrostline.com).
 
-### Features
+## Features
 
 The main focus of the theme, compared with its predecessor, Apollo, is trying to be **more**:
 
@@ -12,10 +16,18 @@ The main focus of the theme, compared with its predecessor, Apollo, is trying to
 - Consistent in colors and comments systems (e.g. gitment & gitalk, which Apollo didn't have)
 - Academic in fonts
 
-### Configuration
+In general, the theme supports features including but not limited to:
 
-For theme configuration, please go to Apollo's readme file, where most settings here are inherited from.
+- Local search
+- Customizable independent pages: About, Tags, Categories, etc.
+- Mathjax ($\LaTeX$) and Flowcharts
+- Background music
+- RSS
 
-### License
+## Configuration
+
+For theme configuration, please go to Apollo's readme file, from which inherited most settings of Nella.
+
+## License
 
 MIT
