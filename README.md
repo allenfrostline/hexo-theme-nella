@@ -1,6 +1,6 @@
 # Nella
 
-<img width="100%" src="/source/screenshot/head.png">
+<img width="80%" src="/source/screenshot/head.png">
 
 This Theme is customized based on [Apollo](https://github.com/pinggod/hexo-theme-apollo).
 
@@ -16,10 +16,12 @@ The main focus of the theme, compared with its predecessor, Apollo, is trying to
 - Consistent in colors and comments systems (e.g. gitment & gitalk, which Apollo didn't have)
 - Academic in fonts
 
-In general, the theme supports features including but not limited to:
+Specifically, the theme supports features including but not limited to:
 
 - Local search
 - Customizable independent pages: About, Tags, Categories, etc.
+- Palatino-like fonts (more consistent with academic writing)
+- Footnotes with quick returning links
 - Mathjax ($\LaTeX$) and Flowcharts
 - Background music
 - RSS
