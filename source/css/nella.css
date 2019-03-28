@@ -146,13 +146,3 @@ table th {color: #000000;}
   background-color: #b21c1c;
   color: #FFFFFF;
 }
-ol {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-ol span {
-  -webkit-user-select: all;
-  -moz-user-select: all;
-  -ms-user-select: all;
-}
