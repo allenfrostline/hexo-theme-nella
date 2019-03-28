@@ -1,6 +1,6 @@
 # Nella
 
-<img width="100%" src="/sourse/screenshot/head.png">
+<img width="100%" src="/source/screenshot/head.png">
 
 This Theme is customized based on [Apollo](https://github.com/pinggod/hexo-theme-apollo).
 
