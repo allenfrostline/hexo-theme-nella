@@ -83,6 +83,7 @@ header ul.nav-fix-list-child { display: none }
 .post-content h1, .post-content h2 { font-size: 1.3em }
 .post-content h3, .post-content h4, .post-content h5, .post-content h6 { font-size: 1.1em }
 .post-content a { color: #b21c1c; word-break: normal }
+.post-content del { text-decoration-color: #b21c1c; text-decoration: line-through; line-height: 1em}
 .post-content blockquote { margin: 2em 0; padding-left: 20px; border-left: 4px solid #b21c1c }
 .post-content img { display: block; max-width: 100%; margin: 1em auto }
 .post-content > figure.highlight { box-shadow: 0 1px 2px #e3e3e3 }
@@ -106,7 +107,7 @@ pre .ruby .class .title, .css .rules .attribute, .string, .value, .inheritance, 
 pre .title, .css .hexcolor { color: #3e999f }
 pre .function, .python .decorator, .python .title, .ruby .function .title, .ruby .title .keyword, .perl .sub, .javascript .title, .coffeescript .title { color: #4271ae }
 pre .keyword, .javascript .function { color: #8959a8 }
-pre code { font-size: 1em; background-color: #ffffff; margin-left: 1.1em; display: block }
+pre code { font-size: 1em; background-color: #ffffff; margin-left: 1.4em; display: block }
 code { padding-left: 2px; padding-right: 2px; margin-right: 1px; font-size: .7em; border: 2px solid #b21c1c; border-radius: 4px; font-family: Monaco, Roboto Mono, monospace }
 pre code { border: none }
 .paginator { margin: 4em 0; text-align: center }
